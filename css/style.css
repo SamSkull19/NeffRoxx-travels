@@ -1,18 +1,20 @@
 /* Common Section */
 
-body{
+body {
     margin: 50px 0px;
     padding: 0px;
     border: 0px;
 }
 
-:root{
+:root {
     --primary-color: #FF5400;
+    --primary-font: "Mulish", sans-serif;
+    --font-size: 50px;
 }
 
 /* Header & Navbar Section */
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +25,7 @@ body{
 
 /* Logo Section */
 
-.logo-content{
+.logo-content {
     width: 350px;
     height: 57px;
     display: flex;
@@ -31,21 +33,21 @@ body{
     align-items: center;
 }
 
-.logo-content h2{
+.logo-content h2 {
     color: #131318;
-    font-family: "Mulish", sans-serif;
+    font-family: var(--primary-font);
     font-size: 36px;
     font-weight: 800;
     line-height: normal;
 }
 
-.logo-content h2 span{
+.logo-content h2 span {
     color: var(--primary-color);
 }
 
 /* Nav list Items */
 
-.nav-list{
+.nav-list {
     width: 506px;
     height: 43px;
     display: flex;
@@ -53,24 +55,133 @@ body{
     align-items: center;
 }
 
-.nav-list li{
+.nav-list li {
     list-style: none;
 }
 
-.nav-list a{
+.nav-list a {
     text-decoration: none;
     color: #424247;
-    font-family: "Mulish", sans-serif;
+    font-family: var(--primary-font);
     font-size: 18px;
     font-weight: 400;
 }
 
-.nav-list a span{
+.nav-list a span {
     color: var(--primary-color);
 }
 
+/* Explore-travel  Section*/
+
+.explore-travel {
+    width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.009)),url('../images/Explore-Travel-banner.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 50px;
+    border: 1px solid #fff;
+    border-radius: 20px 20px 30px 30px;
+}
+
+.explore-travel-title {
+    width: 50.95%;
+    height: 16%;
+    margin: 0 auto;
+    margin-top: 106px;
+}
+
+.explore-travel-title h1 {
+    color: #FFF;
+    font-family: var(--primary-font);
+    font-size: 64px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.explore-travel-details {
+    width: 58%;
+    height: 10.4%;
+    margin: 0 auto;
+    margin-top: 0.23em;
+}
+
+.explore-travel-details p {
+    color: #FFF;
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.explore-travel-input {
+    width: 68.4%;
+    height: 16.8%;
+    margin: 0 auto;
+    margin-top: 5em;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.explore-travel-input form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.explore-travel-input form input{
+    width: 174px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding-left: 1em;
+}
+
+.explore-travel-input form select{
+    width: 174px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding-left: 1em;
+}
 
 
+.btn-findnow{
+    width: 174px;
+    height: 52px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
-
-
+.btn-findnow ion-icon{
+    font-size: 20px;
+    padding-right: 5px;
+}
