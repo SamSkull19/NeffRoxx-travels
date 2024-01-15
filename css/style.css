@@ -1,0 +1,76 @@
+/* Common Section */
+
+body{
+    margin: 50px 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+:root{
+    --primary-color: #FF5400;
+}
+
+/* Header & Navbar Section */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+/* Logo Section */
+
+.logo-content{
+    width: 350px;
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-content h2{
+    color: #131318;
+    font-family: "Mulish", sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.logo-content h2 span{
+    color: var(--primary-color);
+}
+
+/* Nav list Items */
+
+.nav-list{
+    width: 506px;
+    height: 43px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: #424247;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-list a span{
+    color: var(--primary-color);
+}
+
+
+
+
+
+
