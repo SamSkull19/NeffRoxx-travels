@@ -83,12 +83,12 @@ body {
     background-size: 100%;
     margin-top: 50px;
     border: 1px solid #fff;
-    border-radius: 20px 20px 30px 30px;
+    border-radius: 20px 20px 25px 25px;
 }
 
 .explore-travel-title {
-    width: 50.95%;
-    height: 16%;
+    width: 596px;
+    height: 80px;
     margin: 0 auto;
     margin-top: 106px;
 }
@@ -102,10 +102,10 @@ body {
 }
 
 .explore-travel-details {
-    width: 58%;
-    height: 10.4%;
+    width: 676px;
+    height: 52px;
     margin: 0 auto;
-    margin-top: 0.23em;
+    margin-top: 24px;
 }
 
 .explore-travel-details p {
@@ -119,8 +119,8 @@ body {
 }
 
 .explore-travel-input {
-    width: 68.4%;
-    height: 16.8%;
+    width: 800px;
+    height: 84px;
     margin: 0 auto;
     margin-top: 5em;
     border-radius: 8px;
@@ -184,4 +184,80 @@ body {
 .btn-findnow ion-icon{
     font-size: 20px;
     padding-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .explore-travel {
+        width: 335px;
+        height: 483px;
+        margin: 0 auto;
+        background-size:cover;
+        background-position: 50%;
+        margin-top: 50px;
+    }
+
+    .explore-travel-title {
+        width: 205px;
+        height: 28px;
+        margin: 0 auto;
+        margin-top: 32px;
+    }
+    
+    .explore-travel-title h1 {
+        font-size: 22px;
+        font-weight: 800;
+    }
+    
+    .explore-travel-details {
+        width: 304px;
+        height: 63px;
+        margin: 0 auto;
+        margin-top: 8px;
+    }
+    
+    .explore-travel-details p {
+        text-align: center;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    
+    .explore-travel-input {
+        width: 287px;
+        height: 288px;
+        margin-top: 35px;
+    }
+    
+    .explore-travel-input form {
+        display: flex;
+        flex-direction: column;
+        padding-top: 16px;
+    }
+    
+    .explore-travel-input form input{
+        width: 80%;
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    
+    .explore-travel-input form select{
+        width: 87%;
+        font-size: 16px;
+        padding-right: 16px;
+        margin-bottom: 16px;
+    }
+
+    .btn-findnow{
+        width: 87%;
+    }
+
 }
