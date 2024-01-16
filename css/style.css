@@ -762,6 +762,136 @@
 }
 
 
+/* Popular Package Section */
+
+.pp-main {
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.pp-main h1 {
+    font-size: 40px;
+    font-family: var(--primary-font);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.Popular-Packages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.p-pack {
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.pp-title1 {
+    width: 400px;
+    height: 300px;
+    background-image: url('../images/Sweden.jpg');
+    background-repeat: no-repeat;
+    background-size: 400px 300px;
+    border-radius: 20px 20px 0px 0px;
+    transition: transform 2s ease-in-out 0s;
+}
+
+.p-pack:hover .pp-title1 {
+    transform: scale(1.1);
+    transform-origin: bottom;
+}
+
+.pp-title2 {
+    width: 400px;
+    height: 300px;
+    background-image: url('../images/Australia.jpg');
+    background-repeat: no-repeat;
+    background-size: 400px 300px;
+    border-radius: 20px 20px 0px 0px;
+    transition: transform 2s ease-in-out 0s;
+}
+
+.p-pack:hover .pp-title2 {
+    transform: scale(1.1);
+    transform-origin: bottom;
+}
+
+.pp-title3 {
+    width: 400px;
+    height: 300px;
+    background-image: url('../images/Denmark.jpg');
+    background-repeat: no-repeat;
+    background-size: 400px 300px;
+    border-radius: 20px 20px 0px 0px;
+    transition: transform 2s ease-in-out 0s;
+}
+
+.p-pack:hover .pp-title3 {
+    transform: scale(1.1);
+    transform-origin: bottom;
+}
+
+.pp-discount {
+    width: 170px;
+    height: 30px;
+    background-color: rgba(245, 245, 220, 0.6);
+    padding: 10px;
+    position: relative;
+    top: 40px;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.pp-discount h2 {
+    font-family: var(--primary-font);
+}
+
+.pp-details {
+    width: 378px;
+    height: 180px;
+    padding: 20px 0px 0px 20px;
+    background-color: rgba(251, 181, 99, 0.20);
+    border-radius: 0px 0px 20px 20px;
+    border: 1px solid rgb(222, 184, 135);
+    transition: transform 2s ease-in-out 0s;
+}
+
+.p-pack:hover .pp-details {
+    transform: scale(1.1);
+    transform-origin: top;
+}
+
+.pp-details h3 {
+    font-family: var(--primary-font);
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.pp-duration {
+    display: flex;
+    align-items: center;
+}
+
+.pp-duration p,
+ion-icon {
+    font-size: 20px;
+    padding-right: 10px;
+    font-family: var(--primary-font);
+    margin-bottom: 20px;
+}
+
+.pp-price h2 {
+    font-size: 20px;
+    padding-right: 20px;
+    font-weight: 600px;
+    font-family: var(--primary-font);
+}
+
+
 
 
 
@@ -947,7 +1077,7 @@
     }
 
     .dp-1 {
-        bottom: 40%;
+        bottom: 35%;
     }
 
 
@@ -959,7 +1089,7 @@
     }
 
     .dp-2 {
-        bottom: 80%;
+        bottom: 75%;
     }
 
 
@@ -993,7 +1123,7 @@
     }
 
     .dp-4 {
-        bottom: 230px;
+        bottom: 220px;
         right: 150px;
     }
 
@@ -1005,7 +1135,7 @@
     }
 
     .dp-5 {
-        bottom: 120%;
+        bottom: 115%;
         left: 30px;
     }
 
@@ -1024,8 +1154,8 @@
     }
 
     .dp-6 {
-        bottom: 710px;
-        right: 65px;
+        bottom: 700px;
+        right: 70px;
     }
 
     .imglib-row3-set2 img {
@@ -1037,8 +1167,8 @@
     }
 
     .dp-7 {
-        bottom: 820px;
-        right: 165px;
+        bottom: 805px;
+        right: 170px;
     }
 
 
@@ -1076,6 +1206,7 @@
     .sub-card-box1 h3 {
         font-size: 18px;
         font-weight: 800;
+        padding-top: 16px;
         padding-bottom: 16px;
     }
 
@@ -1097,6 +1228,7 @@
     .sub-card-box2 h3 {
         font-size: 18px;
         font-weight: 800;
+        padding-top: 16px;
         padding-bottom: 16px;
     }
 
@@ -1116,6 +1248,7 @@
     .card-box2 h3 {
         font-size: 18px;
         font-weight: 800;
+        padding-top: 16px;
         padding-bottom: 16px;
     }
 
@@ -1222,6 +1355,76 @@
         padding-top: 24px;
         margin-bottom: 32px;
     }
-    
+
+    /* Popular Package Section */
+
+
+    .pp-main {
+        width: 335px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .pp-main h1 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .Popular-Packages {
+        flex-direction: column;
+        row-gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p-pack {
+        width: 335px;
+        height: 330px;
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
+
+    .pp-title1 {
+        width: 300px;
+        height: 150px;
+        background-size: 300px 150px;
+    }
+
+    .pp-title2 {
+        width: 300px;
+        height: 150px;
+        background-size: 300px 150px;
+    }
+
+    .pp-title3 {
+        width: 300px;
+        height: 150px;
+        background-size: 300px 150px;
+    }
+
+    .pp-details {
+        width: 278px;
+        height: 150px;
+        padding: 20px 0px 0px 20px;
+        background-color: rgba(251, 181, 99, 0.20);
+        border-radius: 0px 0px 20px 20px;
+        border: 1px solid rgb(222, 184, 135);
+        transition: transform 2s ease-in-out 0s;
+    }
+
+    .pp-details h3 {
+        font-family: var(--primary-font);
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .pp-duration p,ion-icon{
+        font-size: 15px;
+    }
+
+    .pp-price h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
 
 }
