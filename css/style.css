@@ -1641,6 +1641,9 @@ ion-icon {
         height: 190px;
     }
 
+    body{
+        overflow-x: hidden;
+    }
 
 
 
