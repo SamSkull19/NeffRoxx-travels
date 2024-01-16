@@ -6,6 +6,7 @@
     border: 0px;
 }
 
+
 :root {
     --primary-color: #FF5400;
     --primary-font: "Mulish", sans-serif;
@@ -92,7 +93,7 @@
     color: var(--primary-color);
 }
 
-.nav-list-min{
+.nav-list-min {
     display: none;
 }
 
@@ -916,6 +917,77 @@ ion-icon {
 }
 
 
+/* A Simple Perfect Place To Get Lost */
+
+.Get-Lost {
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gl-texts {
+    width: 500px;
+}
+
+.gl-texts h1 {
+    color: #131318;
+    font-family: var(--primary-font);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.gl-texts p {
+    color: #5A5A5D;
+    font-family: var(--primary-font);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+.gl-texts li {
+    color: #131318;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.gl-btn{
+    width: 174px;
+    height: 52px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.gl-video{
+    border-radius: 5px;
+}
+
+.gl-video iframe{
+    border-radius: 10px;
+}
+
 
 
 
@@ -972,31 +1044,31 @@ ion-icon {
 
     /* nav list */
 
-    .nav-list{
+    .nav-list {
         width: 100px;
     }
 
-    .nav-list li{
+    .nav-list li {
         display: none;
     }
 
-    .nav-list-min{
+    .nav-list-min {
         display: block;
         margin-top: 0px;
         margin-right: 10px;
     }
 
-    .nav-list-min li{
+    .nav-list-min li {
         list-style: none;
     }
 
-    .nav-list-min a{
+    .nav-list-min a {
         text-decoration: none;
         color: #131318;
         font-size: 25px;
     }
-    
-    .nav-list-min-2{
+
+    .nav-list-min-2 {
         display: none;
         position: absolute;
         background-color: rgb(250, 250, 210, 0.8);
@@ -1006,26 +1078,24 @@ ion-icon {
         font-size: 15px;
     }
 
-    .nav-list-min-2 li{
+    .nav-list-min-2 li {
         padding: 10px;
     }
 
-    .nav-list-min-2 li:hover{
+    .nav-list-min-2 li:hover {
         background-color: rgb(189, 215, 215);
     }
 
-    .nav-list-min-2 a{
+    .nav-list-min-2 a {
         font-size: 15px;
         font: var(--primary-font);
         color: black;
     }
 
-    .nav-list-min li:hover .nav-list-min-2{
+    .nav-list-min li:hover .nav-list-min-2 {
         display: block;
-        margin-right: 130px; 
+        margin-right: 130px;
     }
-
-
 
 
 
@@ -1526,7 +1596,8 @@ ion-icon {
         margin-bottom: 15px;
     }
 
-    .pp-duration p,ion-icon{
+    .pp-duration p,
+    ion-icon {
         font-size: 15px;
     }
 
@@ -1534,5 +1605,43 @@ ion-icon {
         font-size: 18px;
         margin-bottom: 10px;
     }
+
+    /* A Simple Perfect Place To Get Lost */
+
+    .Get-Lost {
+        width: 335px;
+        margin: 0 auto;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .gl-texts {
+        width: 335px;
+        margin-bottom: 16px;
+    }
+
+    .gl-texts h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .gl-texts p {
+        font-size: 10px;
+        font-style: normal;
+        line-height: 14px;
+    }
+
+    .gl-texts li {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .gl-video iframe{
+        width: 335px;
+        height: 190px;
+    }
+
+
+
 
 }
